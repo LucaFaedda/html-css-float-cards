@@ -2,46 +2,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
-    font-family: 'Fredoka', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 .container{
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
 }
+
+/* header */
 
 h1{
     color:#E8426F ;
     text-align: center;
     margin-top: 20px;
+    font-family: 'Fredoka', sans-serif;
+
 }
 
-p{
+/* fine header */
+
+/* main */
+
+.text-center{
     text-align: center;
+    margin: 50px 0px 40px 0px;
 }
 
 img{
     height: 100px;
     float: left;
+    margin-right: 10px;
 }
 
-.clearfix::after{
-    display: table;
+.clearfix:after{
     content: "";
+    display: table;
     clear: both;
 
 }
 
-.col{
-    width: calc(100%/3 - 40px);
-    margin: 20px;
 
+.margin-top-line-height{
+
+    margin-top: 10px;
+    line-height: 1.5;
 }
-.row .col{
+
+.row .card{
    
     float: left;
     background-color: #0F0E17;
     color: #fff;
-    
+    width: calc(100%/3 - 40px);
+    margin: 20px;
+    text-align: left;
+    box-shadow:  -2px -3px 5px 5px #dededec5;
+
 }
