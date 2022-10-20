@@ -16,7 +16,7 @@ h1{
     color:#E8426F ;
     text-align: center;
     margin-top: 20px;
-    font-family: 'Fredoka', sans-serif;
+    font-family:  'Fredoka One';
 
 }
 
@@ -27,6 +27,7 @@ h1{
 .text-center{
     text-align: center;
     margin: 50px 0px 40px 0px;
+    clear: left;
 }
 
 img{
@@ -35,12 +36,11 @@ img{
     margin-right: 10px;
 }
 
-.clearfix:after{
+.clearfix::after {
     content: "";
-    display: table;
     clear: both;
-
-}
+    display: table;
+  }
 
 
 .margin-top-line-height{
@@ -56,7 +56,9 @@ img{
     color: #fff;
     width: calc(100%/3 - 40px);
     margin: 20px;
-    text-align: left;
     box-shadow:  -2px -3px 5px 5px #dededec5;
+}
 
+.email{
+    color: #00C3F0;
 }
