@@ -24,23 +24,25 @@ h1{
 
 /* main */
 
-.text-center{
-    text-align: center;
-    margin: 50px 0px 40px 0px;
-    clear: left;
-}
-
-img{
-    height: 100px;
-    float: left;
-    margin-right: 10px;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+
+.text-center{
+    text-align: center;
+    margin: 50px 0px 40px 0px;
+    clear: left;
+}    
+
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}    
 
 
 .margin-top-line-height{
@@ -59,6 +61,7 @@ img{
     box-shadow:  -2px -3px 5px 5px #dededec5;
 }
 
-.email{
+a{
     color: #00C3F0;
+    text-decoration: none;
 }
