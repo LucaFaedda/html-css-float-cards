@@ -2,4 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1{
+    color:#E8426F ;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+
+}
+.row{
+    margin-left: 100px;
+}
+.row .col{
+    width: calc(80%/3);
+    float: left;
+    background-color: #0F0E17;
+    color: #fff;
+    
 }
